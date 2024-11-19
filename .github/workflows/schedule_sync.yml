@@ -2,8 +2,7 @@ name: Run Tado-Octopus Script
 
 on:
   schedule:
-    # Runs every Tuesday at 12pm UTC
-    - cron: '0 12 * * 2'
+    - cron: '0 12 * * *'
   workflow_dispatch:  # Allows manual triggering of the workflow
 
 jobs:
